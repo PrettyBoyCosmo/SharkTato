@@ -2,7 +2,6 @@
 #
 # Title:        Potato SSH Backdoor [ft. Discord Webhooks]
 # Author:       C0SM0, inspired from Hak5Darren
-# Version:      1.1
 #
 # Magenta...........Setup
 # Red Slow Blink....Failed to obtain IP address
